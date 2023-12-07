@@ -172,6 +172,7 @@ y = 'D:/FAU ^^/Courses/Deep learning/ws2023/exercise0_material/src_to_implement/
 
 image_generator = ImageGenerator(x, y, 50, shuffle=True, mirroring=False, rotation=False)
 while True:
+    print('hello world')
     request = input()
     if request == 'next':
         #(batch_images, batch_labels) = image_generator.next()
